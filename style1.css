@@ -130,6 +130,10 @@
     }
     div.navbar a{
         color: red;
+        background-image: url("https://d2dcan0armyq93.cloudfront.net/photo/odai/600/14b1c62da311915eefb5ebc7c8ce6ac9_600.jpg");
+    }
+    div.navbar a:hover{
+        background-image: url("https://api.jikipedia.com/upload/edf135f9836c1362bffc344d076b4a65_scaled.png");
     }
     div.navbar ul li{
         text-align: center;
@@ -146,10 +150,20 @@
         color: #2c2c2c;
     }
     .footer{
-        width: 200px;
-        height: 200px;
+        width: 750px;
+        height: 300px;
         border: 6px dashed rebeccapurple;
         margin: 100px auto;
-        background-image: url("");
+        padding: 20px;
+        background-image: url("https://i-com.cdn.gaijin.net/monthly_2019_05/r1mu657m27j11.jpg.dfbd95a024018b5139f86d4ed0e3b8f3.jpg");
+        background-repeat: no-repeat;
+        background-color: aqua;
+        background-position: 100px 50px;
+    }
+    body{
+        background-image: url("http://scp-jp-sandbox2.wdfiles.com/local--files/snap-mand/image");
+        background-repeat: no-repeat;
+        background-position: center top;
+        /*background-repeat: no-repeat;*/
     }
 </style>
