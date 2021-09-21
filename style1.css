@@ -136,12 +136,17 @@
         width: 500px;
         list-style: none;
         margin: 100px auto;
+        position: relative;
+        left: 0px;
+        top: -50px;
     }
     div.navbar a{
         color: red;
         background-image: url("https://d2dcan0armyq93.cloudfront.net/photo/odai/600/14b1c62da311915eefb5ebc7c8ce6ac9_600.jpg");
     }
     div.navbar a:hover{
+        border-bottom: 5px solid greenyellow;
+        position: relative;
         background-image: url("https://api.jikipedia.com/upload/edf135f9836c1362bffc344d076b4a65_scaled.png");
     }
     div.navbar ul li{
@@ -175,7 +180,6 @@
         background-position: center top;
         background-attachment: fixed;
         /*background-repeat: no-repeat;*/
-
     }
     h1{
         text-decoration: none;
@@ -187,6 +191,7 @@
         position: relative;
         left: 500px;
         top: -10px;
+
     }
     .list ul{
         list-style: none;
@@ -197,4 +202,5 @@
         padding-left: 30px;
         background:url("rtr.png") no-repeat left;
     }
+
 </style>
