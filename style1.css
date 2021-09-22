@@ -35,6 +35,7 @@
         height: 500px;
         background-color: #2c2c2c;
         float: left;
+        z-index: 9;
     }
     .main .centre{
         width: 300px;
@@ -54,6 +55,7 @@
         width: 250px;
         height: 200px;
         margin: 25px auto;
+        z-index: 10;
     }
     .main .left .left_middle{
         /*background-color: blue;*/
@@ -137,8 +139,10 @@
         list-style: none;
         margin: 100px auto;
         position: relative;
-        left: 0px;
+        left: 515px;
         top: -50px;
+        position: fixed;
+        z-index: 17;
     }
     div.navbar a{
         color: red;
@@ -202,5 +206,90 @@
         padding-left: 30px;
         background:url("rtr.png") no-repeat left;
     }
+    .upload{
+        position: absolute;
+        top: 1800px;
+        left: 100px;
+    }
+    .footer2{
+        margin: 0 auto;
+        width: 880px;
+        height: 550px;
+        background:url("rtr.png") center top;
+        position: relative;
 
+    }
+    .word{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -220px;
+        margin-top: 80px;
+        border-radius: 3px;
+        box-shadow: 13px 3px 3px rebeccapurple;
+        line-height: 30px;
+        text-align: center;
+    }
+    .gallery{
+        width: 800px;
+        height: 450px;
+        border: 5px solid red;
+        margin: 100px auto;
+        position: relative;
+    }
+    .gallery ul li{
+        list-style: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: none;
+    }
+    .gallery ul li.p1{
+        display: block;
+    }
+    .gallery .btn a{
+        position: absolute;
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 40px;
+        font-family: Serif;
+        top: 50%;
+        background-color:rgba(255,0,0,0.5);
+        width: 40px;
+        height: 50px;
+        text-align: center;
+        line-height: 40px;
+        margin-top: -40px;
+    }
+    .gallery .btn a.Pright{
+        right: 0;
+    }
+    .circle{
+        width: 200px;
+        height: 20px;
+        position: absolute;
+        left: 0;
+        bottom: 1px;
+        background: rgba(255,0,0,0.5);
+        left: 50%;
+        margin-left: -90px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        cursor: wait;
+    }
+    .circle ol li{
+        width: 15px;
+        height: 20px;
+        float: left;
+        background: aliceblue;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+        margin: 0 5px;
+    }
+    .circle ol li.o1{
+        background-color: gold;
+        color: wheat;
+    }
 </style>
